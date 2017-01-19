@@ -1,6 +1,8 @@
+
 body{
   font-family: monospace;
   background-color: powderblue;
+  margin: 30px;
 }
 
 .dog1 {
@@ -42,4 +44,64 @@ img {
 
 .dog1 a {
   background-color: yellow;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .dog1 {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .dog2 {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .dog3 {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .dog4 {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  body {
+    margin: 10px;
+  }
+
+  .dog1 {
+    float: none;
+    width: 100%;
+  }
+  .dog2 {
+    float: none;
+    width: 100%;
+  }
+  .dog3 {
+    float: none;
+    width: 100%;
+  }
+  .dog4 {
+    float: none;
+    width: 100%;
+  }
 }
